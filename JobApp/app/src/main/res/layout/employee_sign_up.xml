@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEEA00"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/employeeSU_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Name"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/employerSU_organisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/employeeSU_name"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Organization"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/employerSU_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/employerSU_organisation"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Year"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/employerSU_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/employerSU_year"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Address"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/employerSU_contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/employerSU_address"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Contact Number"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/employerSU_preferred_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/employerSU_contact_number"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Preferred USer ID"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/employerSU_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/employerSU_preferred_user_id"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Password"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/employerSU_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/employerSU_password"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Email ID"
+        android:padding="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:text="Submit" />
+
+</RelativeLayout>

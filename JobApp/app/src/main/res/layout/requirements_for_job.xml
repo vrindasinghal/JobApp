@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEEA00"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/job_ref_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Job Ref Code"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_ref_code"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Designation"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_work_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_designation"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Work Profile"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/job_work_profile"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Gender"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_keywords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/job_gender"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Key words for desired work"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_keywords"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Experience range"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/job_experience"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Salary"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_salary"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Qualification"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_qualification"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Job location"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_interview_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_location"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Interview Date"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_interview_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_interview_date"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Interview Address"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/job_interview_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/job_interview_address"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittextshape"
+        android:hint="Time of interview"
+        android:padding="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:text="Submit" />
+
+</RelativeLayout>

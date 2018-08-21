@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEEA00"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/job_profile_about_job"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/edittextshape"
+        android:padding="5dp"
+        android:text="About the job" />
+
+    <TextView
+        android:id="@+id/job_profile_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/job_profile_about_job"
+        android:background="@drawable/edittextshape"
+        android:text="Amount to be paid" />
+
+    <Button
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/job_profile_amount"
+        android:id="@+id/job_profile_interview_detail_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/shape"
+        android:text="Interview Detail Page"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
